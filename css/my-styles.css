@@ -8,5 +8,16 @@ body {
   max-width: 1000px;
 }
 
+#logo {
+  display: inline;
+  margin: -15px;
+  padding-right: 25px;
+}
 
+.navbar {
+  height: 75px;
+}
 
+.navbar-nav {
+  background-color: grey;
+}
