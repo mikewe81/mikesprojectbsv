@@ -1,23 +1,36 @@
 /* Layout */
 
 body {
-  padding-top: 80px;
+  padding-top: 70px;
 }
-
 .container {
-  max-width: 1000px;
+  margin-top: -30px;
+  background: #F6F0ED;
+  text-align: center;
 }
-
 #logo {
   display: inline;
   margin: -15px;
   padding-right: 25px;
+  text-align: center;
 }
-
 .navbar {
   height: 75px;
+  background: #383333;
+}
+.navbar-nav {
+  background-color: #383333;
+}
+.jumbotron {
+  background: lightgray;
+  margin-top: -5px; 
+  text-align: center;
+}
+.jumbotron img {
+  max-width: 100%;
 }
 
-.navbar-nav {
-  background-color: grey;
+
+p {
+  font-size: 1.4em;
 }
