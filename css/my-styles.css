@@ -123,6 +123,9 @@ fieldset {
   border-style:outset;
 }
 
+#contact_form {
+  text-align: center;
+}
 
 
 @media screen and (min-width: 480px) {
