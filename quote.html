@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+      <title>Preferred Plastics</title>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+      <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="css/my-styles.css">
+    </head> 
+  
+  
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">     
+      <div class="container-fluid">
+        <a class="navbar-brand " href="index.html"><img id="logo" src="pic/preferred-plastics-logo3.png"><b>Preferred Plastics Inc.</b></a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div class="collapse navbar-collapse">
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" data-target="#">Contact<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="contact.html">Contact Info</a></li>
+                <li><a href="Quote.html">Get A Free Quote</a></li>
+              </ul>
+            </li>            
+          </ul>
+
+        </div>
+        
+      </div>
+    </nav>
+  
+  
+  <body>
+    <div class="container" id="quote">
+      <h2 id="quote">Request A Free Quote Today!</h2>
+      <p id="required_field">* Required Field</p>
+      
+      <div id="contact_form">
+
+        <form class="center-block" action="index.html" method="post">
+
+          <fieldset>
+
+
+          <label for="name">*Name:</label> 
+          <input type="text" id="name" name="user_name">
+            
+          <label for="company">*Company:</label> 
+          <input type="text" id="company" name="Company_Name"> 
+            
+          <label for="phone">*Phone Number:</label> 
+          <input type="text" id="phone" name="Phone_Number">  
+
+          <label for="mail">*Email:</label> 
+          <input type="email" id="mail" name="user_email">
+
+          <label for="address">*Address:</label>  
+          <input type="text" id="address" name="Adress">
+        
+
+
+          <label for="comments">Comments:</label>        
+          <textarea id="comment" name="Comments"></textarea>
+
+          <button type="submit" id="submit_form">Get Quote</button>
+
+
+        </fieldset>   
+
+
+
+
+       </form>
+     </div>
+    
+      
+      
+    
+    </div>
+  
+  <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+
+  <footer class="foot">
+      <a href="facebook.com" class="social_link">
+      <img src="pic/facebookbutton1.jpeg" class="social_button" alt="facebook"></a>
+      <a href="twitter.com" class="social_link">
+      <img src="pic/twitterbutton3.jpeg" class="social_button" alt="twitter"></a>
+      <a href="linkedin.com" class="social_link">
+      <img src="pic/linkedin1.jpg" class="social_button" alt="linkedin"></a>
+      <p id="foot_note">Copyright 2015. Micheal Emerson</p>
+    </footer>  
+</html> 
