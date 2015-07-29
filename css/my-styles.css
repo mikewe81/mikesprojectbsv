@@ -141,9 +141,18 @@ fieldset {
   border-style:outset;
   border-color: darkgray;
 }
-form {
+
+#contact_form {
+  text-align: center;
+}
+
+
+
+
+  form {
     max-width: 680px;
   }
+  
 #submit_form {
   background: light-grey;
   border-radius: 10px;
