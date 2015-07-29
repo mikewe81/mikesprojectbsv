@@ -49,6 +49,24 @@ body {
   margin-left: -25px;
 }
 
+#louisville {
+  margin-bottom: 60px;
+}
+
+#contact_lou {
+  line-height: 1.4em;
+  padding: 30px;
+}
+
+#contact_mich {
+  line-height: 1.4em;
+  padding: 30px;
+}
+
+.locs {
+  margin-bottom: 20px;
+}
+
 #mi {
   margin-right: 20px;
 }
@@ -68,6 +86,7 @@ p {
 .list {
   list-style-type: none;
   font-size: 1.2em;
+  margin-bottom: 50px;
 }
 
 .foot {
@@ -86,7 +105,7 @@ hr {
 }
 
 #wcq {
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
 }
 
 .social_link {
