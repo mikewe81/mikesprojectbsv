@@ -17,7 +17,7 @@ body {
 }
 .navbar {
   background: #383333;
-  padding-bottom: 20px;
+  
 }
 .navbar-nav {
   background-color: #383333;
@@ -28,9 +28,9 @@ navbar-toggle {
 
 .jumbotron {
   background: linear-gradient(slategray,20%, lightgray);
-  margin-top: -5px;
+  margin-top: -20px;
   text-align: center;
-  padding: 30px 10px
+  padding: 60px 10px
 }
 .jumbotron img {
   max-width: 100%;
