@@ -63,8 +63,16 @@ body {
   padding: 30px;
 }
 
+#contact_main {
+  margin-bottom: 20px;
+}
+
 .locs {
   margin-bottom: 20px;
+}
+
+#locations {
+  margin-bottom: 30px;
 }
 
 #mi {
