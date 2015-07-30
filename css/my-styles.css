@@ -71,6 +71,10 @@ navbar-toggle {
   margin: 20px 0 20px 0;
 }
 
+#products_main2 {
+  margin: 30px 0 30px 0;
+}
+
 .locs {
   margin-bottom: 20px;
 }
@@ -126,10 +130,15 @@ hr {
 
 #quote {
   margin-top: 50px;
-  
-.input-group {
-  margin-top: 30px;
-  }  
+  max-width: 500px;
+  outline: 5px solid gray;
+  padding: 10px;
+  outline-style: ridge;
+  outline-color: slategray;
+  background-color: gray;
+}
+
+ 
 
 
 
