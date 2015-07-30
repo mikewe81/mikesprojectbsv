@@ -56,6 +56,7 @@
       
       
 <form>
+  <p id="required">*required</p>
   <div class="form-group">
     <label for="name">Name:</label>
     <input type="text" class="form-control" placeholder="Name">
@@ -77,20 +78,21 @@
     <input type="street" class="form-control" placeholder="Street Address">
   </div>
   <div class="form-group">
-    <label for="company name">Company Name:</label>
+    <label for="State">State and Zip Code:</label>
     <input type="text" class="form-control" placeholder="Company Name">
   </div>
   <div class="form-group">
     <label for="exampleInputFile">Attachment:</label>
-    <input type="file" id="exampleInputFile">
-    
+    <input type="file" id="exampleInputFile">   
   </div>
-    <button type="submit" class="btn btn-default">Submit</button>
-</form>
+    <label for="exampleInputFile">Comments:</label>
+    <textarea class="form-control" rows="3"></textarea>
+  <button type="submit" id="btn1" class="btn btn-default"><b>Submit</b></button>
+  </form>
   </div>
   
     <hr>
-    </div>
+    
   
   <script src="http://code.jquery.com/jquery.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
