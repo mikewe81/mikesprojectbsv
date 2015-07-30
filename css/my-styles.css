@@ -5,24 +5,28 @@ body {
   background: linear-gradient(#BEBEBE, #fff);
 }
 .container {
-  margin-top: -30px;
-  
+  margin-top: -30px; 
   text-align: center;
   max-width: 1000px;
 }
 #logo {
   display: inline;
-  margin: -5px;
+  margin: -12px;
   padding-right: 20px;
   text-align: center;
 }
 .navbar {
   height: 75px;
   background: #383333;
+  padding-bottom: 20px;
 }
 .navbar-nav {
   background-color: #383333;
 }
+navbar-toggle {
+  margin-top: 40px;
+}
+
 .jumbotron {
   background: linear-gradient(slategray,20%, lightgray);
   margin-top: -5px;
@@ -64,7 +68,7 @@ body {
 }
 
 #contact_main {
-  margin-bottom: 20px;
+  margin: 20px 0 20px 0;
 }
 
 .locs {
@@ -120,7 +124,12 @@ hr {
   padding: 10px;
 }
 
-
+#quote {
+  margin-top: 50px;
+  
+.input-group {
+  margin-top: 30px;
+  }  
 
 
 
